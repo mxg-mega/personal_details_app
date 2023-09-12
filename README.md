@@ -1,16 +1,26 @@
-# personal_details_app
+# Introduction
 
-A new Flutter project.
+This is a An App That Contains My Profile Picture, Slack user name and a button that opens a web view of My github account in-app
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. it displays My Slack Profile
+2. it includes an app webview that load my GitHub Profile
+3. it inslude Slack User Name
+- Simple Design
+- Intiuitive interface
+- User-Friendly
+- Code Efficients
 
-A few resources to get you started if this is your first Flutter project:
+  You can Try it at .
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Note
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  if you are running this project the are requirements:
+  1. you have to have a minimun andoid sdk Version 19
+  2. flutter environment sdk of '>=2.19.3 <3.0.0'
+  3. you java version at the time of this project 14.0.1
+
+# Packages Used
+
+Webview packages: package:webview_flutter/webview_flutter.dart
