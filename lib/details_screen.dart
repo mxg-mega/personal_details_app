@@ -11,10 +11,7 @@ class Details extends StatefulWidget {
 }
 
 class _DetailsState extends State<Details> {
-  Widget screen = DetailsScreen();
-  void _screenState() {
-    setState(() {});
-  }
+  Widget screen = const DetailsScreen();
 
   @override
   Widget build(BuildContext context) {
@@ -44,6 +41,7 @@ class DetailsScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           const CircleAvatar(
+            // Circle avatar gives my Profile picture the its shape
             radius: 60.0,
             backgroundImage: AssetImage('images/profile_image.jpg'),
           ),
@@ -55,15 +53,15 @@ class DetailsScreen extends StatelessWidget {
             ),
           ),
           Card(
+            // the card widget helps to make it Obvious for the user to identify an information
+            // A great tool since the object of the app is to display details
             color: Colors.white,
             margin:
                 const EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
             child: ListTile(
-              leading: Expanded(
-                child: Image.asset(
-                  'images/icons8-slack-100.png',
-                  scale: 3.3,
-                ),
+              leading: Image.asset(
+                'images/icons8-slack-100.png',
+                scale: 3.3,
               ),
               title: Padding(
                 padding:
@@ -89,10 +87,14 @@ class DetailsScreen extends StatelessWidget {
               Navigator.pushNamed(context, '/webview');
             },
             style: ElevatedButton.styleFrom(
+              // This section is for Styling the Button
+
+              // The minimum and maximum sizes ensure that it changes size according to screen width
               minimumSize: const Size(150, 30),
               maximumSize: const Size(300, 60),
               backgroundColor: Colors.blueGrey.shade400,
               shape: RoundedRectangleBorder(
+                // this is to style the botton to have the nice blunt end/edges
                 borderRadius: BorderRadius.circular(50),
               ),
             ),
