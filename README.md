@@ -1,6 +1,6 @@
 # Introduction
 
-This is an App that prominently features your Slack identity, incorporates your Slack profile picture, and includes an “Open GitHub” button. When pressed, this button should utilize a WebView component to redirect users to your GitHub profile within the application itself.
+This is an App that prominently features my Slack identity, incorporates my Slack profile picture, and includes an “Open GitHub” button. When pressed, this button utilizes a WebView component to redirect users to my GitHub profile within the application itself.
 
 ## Features
 
