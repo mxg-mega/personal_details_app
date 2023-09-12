@@ -12,7 +12,7 @@ This is an App that prominently features your Slack identity, incorporates your 
 - User-Friendly
 - Code Efficients
 
-  You can Try it at .
+  You can Try it at https://appetize.io/app/3ozjbswmi4qk7azviqjbfa443a?device=pixel4&osVersion=11.0&scale=75.
 
 ### Note
 
